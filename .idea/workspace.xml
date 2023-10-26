@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84fda1a-6744-4b9d-b707-1671a152cadb" name="Changes" comment="optimised">
-      <change afterPath="$PROJECT_DIR$/src/PointCirclePosition.java" afterDir="false" />
+    <list default="true" id="e84fda1a-6744-4b9d-b707-1671a152cadb" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/PointPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PointCirclePosition.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="C:\Users\Максим\Desktop\JavaTasks\untitled\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PointCirclePosition">
+  <component name="RunManager" selected="Application.PointPosition">
     <configuration name="CircularPath" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircularPath" />
       <module name="untitled" />
@@ -71,12 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PointPosition" />
+      <module name="untitled" />
+      <option name="PROGRAM_PARAMETERS" value="C:\test\file1.txt C:\test\file2.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CircularPath" />
+      <item itemvalue="Application.PointPosition" />
       <item itemvalue="Application.PointCirclePosition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PointPosition" />
         <item itemvalue="Application.PointCirclePosition" />
       </list>
     </recent_temporary>
@@ -111,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698249565263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add">
+      <created>1698308878152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698308878152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +147,7 @@
     <MESSAGE value="asd" />
     <MESSAGE value="upd" />
     <MESSAGE value="optimised" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimised" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
