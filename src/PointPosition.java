@@ -4,10 +4,6 @@ import java.io.IOException;
 
 public class PointPosition {
     public static void main(String[] args) {
-        if (args.length != 2) {
-            System.out.println("Files not provided");
-            return;
-        }
 
         try (BufferedReader File1Reader = new BufferedReader(new FileReader(args[0]));
              BufferedReader File2Reader = new BufferedReader(new FileReader(args[1]))) {

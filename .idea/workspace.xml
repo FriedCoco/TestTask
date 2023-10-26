@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84fda1a-6744-4b9d-b707-1671a152cadb" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/PointPosition.java" afterDir="false" />
+    <list default="true" id="e84fda1a-6744-4b9d-b707-1671a152cadb" name="Changes" comment="upd">
+      <change afterPath="$PROJECT_DIR$/src/GenerateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinMovesToEqualize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PointCirclePosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,38 +37,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Максим/AppData/Roaming/JetBrains/IdeaIC2022.1/scratches/CircularPath.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Максим/AppData/Roaming/JetBrains/IdeaIC2022.1/scratches/CircularPath.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "gradle.compiler"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Максим\Desktop\JavaTasks\untitled\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PointPosition">
+  <component name="RunManager" selected="Application.MinMovesToEqualize">
     <configuration name="CircularPath" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircularPath" />
-      <module name="untitled" />
+      <module name="tasks" />
       <option name="PROGRAM_PARAMETERS" value="5 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinMovesToEqualize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinMovesToEqualize" />
+      <module name="tasks" />
+      <option name="PROGRAM_PARAMETERS" value="C:\test\file3.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PointCirclePosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PointCirclePosition" />
-      <module name="untitled" />
+      <module name="tasks" />
       <option name="PROGRAM_PARAMETERS" value="C:\test\file1.txt C:\test\file2.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,19 +85,34 @@
     </configuration>
     <configuration name="PointPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PointPosition" />
-      <module name="untitled" />
+      <module name="tasks" />
       <option name="PROGRAM_PARAMETERS" value="C:\test\file1.txt C:\test\file2.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tasks" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.CircularPath" />
+      <item itemvalue="Application.MinMovesToEqualize" />
       <item itemvalue="Application.PointPosition" />
       <item itemvalue="Application.PointCirclePosition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMovesToEqualize" />
         <item itemvalue="Application.PointPosition" />
         <item itemvalue="Application.PointCirclePosition" />
       </list>
@@ -129,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698308878152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upd">
+      <created>1698309346740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698309346740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,9 +178,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <MESSAGE value="upd" />
     <MESSAGE value="optimised" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
